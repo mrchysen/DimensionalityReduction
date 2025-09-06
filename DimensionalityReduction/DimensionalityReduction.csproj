@@ -8,6 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ClippingAlgorithms\ClippingAlgorithms.csproj" />
+    <ProjectReference Include="..\ScottPlotToWeb\ScottPlotToWeb.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="Data\ncr_ride_bookings.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

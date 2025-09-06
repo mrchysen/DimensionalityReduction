@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36408.4 d17.14
+VisualStudioVersion = 17.14.36408.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DimensionalityReduction", "DimensionalityReduction\DimensionalityReduction.csproj", "{68C2B3CC-5C22-44CC-83E1-1ECB807EEC5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScottPlotToWeb", "ScottPlotToWeb\ScottPlotToWeb.csproj", "{5509C66B-F3D5-4B37-8ADC-65E4D6C40FE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClippingAlgorithms", ".\ClippingAlgorithms\ClippingAlgorithms.csproj", "{E962AD9D-68C4-1984-C5AE-2F55667D16FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{68C2B3CC-5C22-44CC-83E1-1ECB807EEC5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68C2B3CC-5C22-44CC-83E1-1ECB807EEC5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68C2B3CC-5C22-44CC-83E1-1ECB807EEC5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5509C66B-F3D5-4B37-8ADC-65E4D6C40FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5509C66B-F3D5-4B37-8ADC-65E4D6C40FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5509C66B-F3D5-4B37-8ADC-65E4D6C40FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5509C66B-F3D5-4B37-8ADC-65E4D6C40FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E962AD9D-68C4-1984-C5AE-2F55667D16FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E962AD9D-68C4-1984-C5AE-2F55667D16FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E962AD9D-68C4-1984-C5AE-2F55667D16FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E962AD9D-68C4-1984-C5AE-2F55667D16FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
