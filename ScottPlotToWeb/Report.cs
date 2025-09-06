@@ -32,7 +32,7 @@ public class Report
     {
         _elements.Add(new()
         {
-            Type = ElementType.Text,
+            Type = ElementType.Header,
             Header = header
         });
 
