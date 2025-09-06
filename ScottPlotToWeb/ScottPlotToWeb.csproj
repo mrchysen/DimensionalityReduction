@@ -10,4 +10,10 @@
     <PackageReference Include="ScottPlot" Version="5.0.56" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="HtmlRenders\Tamplate.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
