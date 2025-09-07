@@ -8,7 +8,7 @@ public class HeaderRenderer : BaseElementRenderer
 
     public HeaderRenderer(string? className = null)
     {
-        _className = className ?? "basic_text";
+        _className = className ?? "basic_header";
     }
 
     public override StringBuilder Render(

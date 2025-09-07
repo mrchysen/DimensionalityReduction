@@ -17,6 +17,17 @@ public class Report
         return this;
     }
 
+    public Report AddPlot(PlotBase plotBase)
+    {
+        _elements.Add(new()
+        {
+            Type = ElementType.Plot,
+            ImageInfo = plotBase.GetImage()
+        });
+
+        return this;
+    }
+
     public Report AddText(string text)
     {
         _elements.Add(new()

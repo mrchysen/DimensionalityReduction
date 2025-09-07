@@ -5,11 +5,11 @@ namespace ScottPlotToWeb.HtmlRenders.HtmlElementRenderers;
 
 public class PlotRenderer : BaseElementRenderer
 {
-    private string _className = "basic_text";
+    private string _className;
 
     public PlotRenderer(string? className = null)
     {
-        _className = className ?? "basic_text";
+        _className = className ?? "basic_plot";
     }
 
     public override StringBuilder Render(
