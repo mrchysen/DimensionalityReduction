@@ -16,16 +16,18 @@ var report = new Report()
     .AddText("Количество по статусам")
     .AddPlot(new CountByBookingStatusBarPlot(bookings))
     .AddText("Количество статусов по дням")
-    .AddPlot(new BookingStatusPerDayLinePlot(bookings));
+    .AddPlot(new BookingStatusPerDayLinePlot(bookings))
+    .AddText("Гистограмма распределения поездок в определённый день по времени")
+    .AddPlot(new DailyTripHistogram(bookings, new DateOnly(2024, 06, 14)));
 
 IRenderer renderer = new HtmlRenderer();
 
 var fileInfo = await renderer.RenderReportAsync(report);
 
-var browserProccess = new BrowserLauncher()
+var browserProcess = new BrowserLauncher()
     .Launch(fileInfo);
 
-if (browserProccess is null)
+if (browserProcess is null)
     throw new NullReferenceException("No browser process");
 
-await browserProccess.WaitForExitAsync();
+await browserProcess.WaitForExitAsync();

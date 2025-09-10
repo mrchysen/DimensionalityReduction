@@ -11,7 +11,7 @@ public interface IRenderer
 public class HtmlRenderer(
     StringBuilder? additionalStyles = null) : IRenderer
 {
-    private const string TemplatePath = "./HtmlRenders/Tamplate.html";
+    private const string TemplatePath = "./HtmlRenders/Template.html";
     private const string RenderedFileName = "Rendered.html";
     private const string BodyMark = "@Body";
     private const string StyleMark = "@Style";
